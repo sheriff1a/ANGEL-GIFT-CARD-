@@ -1,28 +1,4 @@
 
-code" placeholder="Enter gift card code">
-<button class="primary" onclick="alert('Gift card redemption is not connected to a live card service.')">Redeem Card</button>
-</div></section>
-
-<section id="withdraw" class="section">
-<button class="back" onclick="show('home')">← Back</button>
-<div class="panel"><h2>Withdraw</h2>
-<input type="number" placeholder="Amount (₦)">
-<input placeholder="Recipient account number">
-<input placeholder="Recipient bank">
-<button class="primary" onclick="alert('Withdrawal request received.')">Request Withdrawal</button>
-</div></section>
-
-<section id="deposit" class="section">
-<button class="back" onclick="show('home')">← Back</button>
-<div class="panel"><h2>Deposit</h2>
-<p class="muted">Deposit Account Details</p>
-<div style="background:#ffffff0c;border:1px solid #ffffff18;border-radius:16px;padding:15px;margin-top:12px">
-  <p><span class="muted">Bank</span><br><b>FairMoney Microfinance Bank LTD</b></p>
-  <p><span class="muted">Account Number</span><br><b style="font-size:22px">2026457764</b></p>
-  <p><span class="muted">Account Name</span><br><b>Sheriff Ismail</b></p>
-</div>
-<p class="notice">Please confirm the account name and number carefully before making any transaction.</p>
-</div></section>
 
 <section id="trade" class="section">
 <button class="back" onclick="show('home')">← Back</button>
